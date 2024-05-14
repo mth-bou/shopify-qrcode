@@ -3,7 +3,7 @@ import qrcode from "qrcode";
 import invariant from "tiny-invariant";
 import type { QRCode as PrismaQRCode } from "@prisma/client";
 
-type SupplementedQRCode = PrismaQRCode & {
+export type SupplementedQRCode = PrismaQRCode & {
     productDeleted: boolean;
     productTitle?: string;
     productImage?: string;
@@ -41,7 +41,7 @@ export const getQRCode = async (
 }
 
 export const getQRCodes = async (
-    shop: object,
+    shop: string,
     graphql: (query: string, variables: Record<string, any>) => Promise<Response>
 ): Promise<SupplementedQRCode[]> => {
 

@@ -3,7 +3,7 @@
 client_id = "850e0e4c48e4c1cc19590f2029799851"
 name = "test-cli"
 handle = "test-cli-55"
-application_url = "https://country-yourself-resistance-cache.trycloudflare.com"
+application_url = "https://wales-controversy-city-indicated.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://country-yourself-resistance-cache.trycloudflare.com/auth/callback",
-  "https://country-yourself-resistance-cache.trycloudflare.com/auth/shopify/callback",
-  "https://country-yourself-resistance-cache.trycloudflare.com/api/auth/callback"
+  "https://wales-controversy-city-indicated.trycloudflare.com/auth/callback",
+  "https://wales-controversy-city-indicated.trycloudflare.com/auth/shopify/callback",
+  "https://wales-controversy-city-indicated.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
