@@ -128,7 +128,7 @@ interface QRCodeErrors {
     destination?: string;
 }
 
-export const validateQRCode = async (data: PrismaQRCode) => {
+export const validateQRCode = (data: PrismaQRCode) => {
     const errors: QRCodeErrors = {};
 
     if (!data.title) errors.title = "Title is required";
